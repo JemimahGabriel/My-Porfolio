@@ -1,0 +1,186 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif; /* Font for the text */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    background-color: #115173; /* Light grey background for the whole page */
+    color: #2d3e77; /* Dark grey text color */
+}
+
+header {
+    background-color: #115173; /* Dark background for the header */
+    color: #fff; /* White text color in the header */
+    padding: 1rem; /* Padding around the header content */
+    text-align: center; /* Center align header text */
+}
+
+header h1 {
+    margin: 0; /* Remove default margin from header title */
+}
+
+header p {
+    margin: 0; /* Remove default margin from header description */
+    font-size: 1.2rem; /* Slightly larger font size for the header description */
+}
+
+nav {
+    margin-top: 1rem; /* Margin above the navigation bar */
+}
+
+nav ul {
+    list-style: none; /* Remove default list bullets */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+    display: flex; /* Flexbox for horizontal alignment */
+    justify-content: center; /* Center the navigation links */
+}
+
+nav ul li {
+    margin: 0 1rem; /* Space between each navigation link */
+}
+
+nav ul li a {
+    color: #fff; /* White text color for navigation links */
+    text-decoration: none; /* Remove underline from links */
+    font-weight: bold; /* Bold text for navigation links */
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+/* Section Styles */
+section {
+    padding: 2rem;
+    margin: 1rem auto;
+    max-width: 800px;
+    background-color: #fff; /* Background color for sections */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    margin-top: 0;
+    font-size: 1.5rem;
+}
+
+section p {
+    font-size: 1rem; /* Font size for paragraphs */
+}
+
+section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+section ul li {
+    margin-bottom: 1rem; /* Space between list items */
+}
+
+section ul li strong {
+    color: #3a4c88; /* Color for strong text */
+}
+
+
+/* Contact Section */
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form, .contact-info {
+    flex: 1;
+    margin: 1rem;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    margin-top: 1rem;
+}
+
+.contact-form input, .contact-form textarea {
+    padding: 0.5rem;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    margin-top: 0.5rem;
+}
+
+.contact-form button {
+    background-color: #333;
+    color: #fff;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+.contact-form button:hover {
+    background-color: #555;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-columns {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact-item {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    margin: 0.5rem;
+}
+
+
+/* General Styles for CV Page */
+#cv {
+    text-align: center; /* Center align text in the CV section */
+    padding: 2rem; /* Padding around the section */
+    margin: 1rem auto; /* Margin on top and bottom, centered horizontally */
+    max-width: 800px; /* Maximum width for the section */
+    background-color: #fff; /* White background for the section */
+    border-radius: 8px; /* Rounded corners for the section */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Light shadow for a subtle 3D effect */
+}
+
+#cv h2 {
+    margin-top: 0; /* Remove top margin from heading */
+}
+
+#cv p {
+    font-size: 1.2rem; /* Slightly larger font size for the paragraph */
+}
+
+.download-btn {
+    display: inline-block; /* Make the link behave like a button */
+    background-color: #333; /* Dark background for the button */
+    color: #fff; /* White text color for the button */
+    padding: 0.75rem 1.5rem; /* Padding inside the button */
+    text-decoration: none; /* Remove underline from the link */
+    border-radius: 4px; /* Rounded corners for the button */
+    font-size: 1rem; /* Font size for the button text */
+    margin-top: 1rem; /* Margin above the button */
+}
+
+.download-btn:hover {
+    background-color: #555; /* Slightly lighter background on hover */
+}
+
