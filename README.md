@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Jemimah Gabriel- Personal Portfolio
 
 Welcome to my personal portfolio! I am Jemimah Gabriel, an aspiring backend developer and web enthusiast. This portfolio showcases my skills, educational background, interests, and projects.
@@ -39,3 +40,7 @@ I would love to hear from you! Feel free to reach out to discuss opportunities, 
 
 
 
+=======
+# My-Porfolio
+Portfolio Hackathon
+>>>>>>> 77eb66a7c228977920468a6c2ea3f1d1565070f3
